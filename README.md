@@ -4,7 +4,7 @@ Companion repository for N. Bou-Rabee, *Persistence Pays: Square-root condition-
 
 ## The result
 
-The paper proves that Metropolis-adjusted OBABO, run with Neal's non-reversibly updated accept/reject uniform, reaches total variation accuracy epsilon after O~(sqrt(kappa d) + sqrt(L_H) (d/m)^{3/4}) gradient evaluations from a Gaussian start at an approximate minimizer, for targets exp(-U) with m I <= Hessian(U) <= L I and an L_H-Lipschitz Hessian, kappa = L/m. The sqrt(kappa) term is sharp: a Gaussian lower bound (Proposition 2.4) shows that no choice of step size, friction or epoch length removes it. The dimension dependence is not sharp: the upper bound is d^{1/2}, the lower bound d^{1/6}. On Bayesian logistic regression posteriors the measured cost grows like the square root of the condition number at the mode, faster than the theorem's L_H term predicts on that family.
+The paper proves that Metropolis-adjusted OBABO, run with Neal's non-reversibly updated accept/reject uniform, reaches total variation accuracy epsilon after O(sqrt(kappa d) + sqrt(L_H) (d/m)^{3/4}) gradient evaluations from a Gaussian start at an approximate minimizer, for targets exp(-U) with m I <= Hessian(U) <= L I and an L_H-Lipschitz Hessian, kappa = L/m. The sqrt(kappa) term is sharp: a Gaussian lower bound (Proposition 2.4) shows that no choice of step size, friction or epoch length removes it. The dimension dependence is not sharp: the upper bound is d^{1/2}, the lower bound d^{1/6}. On Bayesian logistic regression posteriors the measured cost grows like the square root of the condition number at the mode, faster than the theorem's L_H term predicts on that family.
 
 ## The two ideas
 
