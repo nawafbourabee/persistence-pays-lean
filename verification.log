@@ -1,0 +1,3 @@
+Checking PersistencePays.lean
+Checking AxiomAudit.lean
+Axiom audit passed for 3541 project declarations. Only propext, Classical.choice and Quot.sound are allowed.
