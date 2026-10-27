@@ -1,6 +1,6 @@
 # Persistence Pays: Lean 4 formalization
 
-Companion repository for N. Bou-Rabee, *Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo with a non-reversibly updated accept/reject uniform* (arXiv, 2026).
+Companion repository for N. Bou-Rabee, *Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo with a non-reversibly updated accept/reject uniform* (arXiv:2610.35781, 2026).
 
 ## The result
 
