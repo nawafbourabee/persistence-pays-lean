@@ -1,6 +1,6 @@
-# Faithful theorem scope for main_9.pdf
+# Faithful theorem scope for the paper
 
-Source: /Users/nawafbou-rabee/Downloads/main_9.pdf, dated 2026-10-25.
+Source: arXiv:2610.35781v1. The formalization was built from the manuscript of 2026-10-25; statement numbers below follow the arXiv version.
 Certification status: **Theorem 1, Theorem 2, Proposition 2.4, and Proposition 3.1 are all kernel-checked.** The final certificates are `A1.theorem_one` in `TheoremOneVerified.lean` and `A1.theorem_two_ennreal` in `TheoremTwoComplete.lean`, together with the two proposition certificates listed in [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md). The full dependency audit passed for 3,541 exported declarations using only the standard three logical axioms.
 
 ## Certification criterion
@@ -127,18 +127,18 @@ A proof restricted to Gaussian inputs or finite second moments is insufficient.
    Proving the involution algebra alone does not establish invariant measures.
 
 4. Theorem 2:
-   Lemma 2.1 + Proposition 4.12 + Proposition 4.11 + Lemma 4.14.
-   Proposition 4.12 uses KL chain rule, Gaussian OU entropy contraction,
+   Lemma 2.1 + Proposition 4.11 + Proposition 4.10 + Lemma 4.13.
+   Proposition 4.11 uses KL chain rule, Gaussian OU entropy contraction,
    Talagrand/corrector control, volume-preserving entropy identity, and
    a discrete weighted telescoping recurrence.
-   Proposition 4.11 uses Corollary 3.5, Lemmas 4.3,4.8,4.9 and Proposition 4.10.
-   Lemma 4.14 uses explicit Gaussian conditional density and entropy plus Gibbs
+   Proposition 4.10 uses Corollary 3.5, Lemmas 4.3, 4.7, 4.8 and Proposition 4.9.
+   Lemma 4.13 uses explicit Gaussian conditional density and entropy plus Gibbs
    normalizing-constant estimates.
 
-5. Integrated corrector estimate (Lemma 4.8):
-   - smooth free transport (Lemma 4.5/Appendix A);
-   - semicontinuity of KL and entropy under W2 convergence (Lemma 4.6);
-   - stability/uniqueness of optimal plans (Lemma 4.7);
+5. Integrated corrector estimate (Lemma 4.7):
+   - smooth free transport (equation (4.4) and Appendix A);
+   - semicontinuity of KL and entropy under W2 convergence (Lemma 4.5);
+   - stability/uniqueness of optimal plans (Lemma 4.6);
    - truncation, Gaussian smoothing, reverse Fatou, uniform integrability.
 
 6. Smooth free transport (Appendix A):

@@ -1,7 +1,7 @@
 # Theorem 1 parameter and complexity audit
 
 This report audits the explicit scalar construction against Theorem 1 of
-`/Users/nawafbou-rabee/Downloads/main_9.pdf`. It does not itself certify the
+arXiv:2610.35781v1 (audited on the manuscript of 2026-10-25; the statement is unchanged). It does not itself certify the
 separate analytic, invariant-law, or coordinate-conjugacy modules.
 
 ## Faithful theorem inputs

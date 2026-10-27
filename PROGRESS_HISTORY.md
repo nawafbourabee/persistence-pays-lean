@@ -4,9 +4,9 @@ The text below records intermediate states. For the completed verification, see 
 
 # Persistence Pays: Lean verification project
 
-Source: `/Users/nawafbou-rabee/Downloads/main_9.pdf`.
+Source: the manuscript of 2026-10-25, posted as arXiv:2610.35781v1. Statement numbers in this historical record have been updated to the arXiv numbering.
 
-PDF SHA256: `1c1ae6894e3a61484093b19ee7818d50b1ec26b72a041f1e6ae88bad3dee0053`.
+SHA256 of the 2026-10-25 manuscript PDF: `1c1ae6894e3a61484093b19ee7818d50b1ec26b72a041f1e6ae88bad3dee0053`.
 Layout-text SHA256: `f5281e1aa95b1e6f42fd1dc74eb16869ea847d3d5139884741227da24a6695b4`.
 Its extracted text is identical to main_8.pdf. No manuscript is modified.
 
@@ -39,7 +39,7 @@ The following supporting results have compiled with only the ordinary three logi
 - Lemma 5.7: the literal capped comparison map, Borel inverse, volume preservation, energy identity, and growth bound.
 - Gaussian OU relative-entropy contraction for arbitrary probability laws, including infinite KL, and its conditional phase-space version for the actual OU kernel. The proof uses checked Gaussian reflection, finite Gaussian sums, entropy tensorization, and the semigroup law.
 - Lemma 5.6: all five stopped-path moment/exit conclusions for the literal finite Gaussian block, including prefix independence, the maximum-energy bound with probability 0.01, and the third flight moment with constant 6.6.
-- Lemma 4.14: exact starting entropy, finite KL, and an actual bounded density for the literal one-step unadjusted kernel, with all Gaussian/Jacobian/integrability premises discharged from A1.
+- Lemma 4.13: exact starting entropy, finite KL, and an actual bounded density for the literal one-step unadjusted kernel, with all Gaussian/Jacobian/integrability premises discharged from A1.
 - Lemma 5.8: both conditional-Gaussian-entropy bounds for actual conditional laws; equation (5.2): exact common-noise comparison and accumulated exit error; Lemma 5.11: both actual comparison-chain moment estimates and the density cap, with the stated constants.
 - Brenier existence, actual convex-gradient representation and uniqueness for finite-cost optimal quadratic plans with absolutely continuous source; the potential is finite everywhere for source laws equivalent to Lebesgue measure. Joint weak KL lower semicontinuity and conditional Gaussian KL lower semicontinuity are also proved. The actual density-Jacobian identity for the canonical Brenier map is now checked, using a proximal-map proof of second regularity and the area formula. Its exact log-Jacobian entropy identity is also checked. The dynamic free-transport inequality is now proved in `FreeTransportTheorem.lean`.
 - The actual law-dependent transport corrector, its conditional-mean bound, all of Lemma 4.2 and Lemma 4.3, the fixed and conditional Gaussian covariance inequalities in Appendix A, and both parts of Lemma 4.9 are checked. The sharp Talagrand inequality for the actual Gibbs target is now checked, including the extended-valued statement for every probability law. The integrated free-transport corrector estimate is now proved without additional analytic premises.
@@ -49,7 +49,7 @@ The following supporting results have compiled with only the ordinary three logi
 - The actual-law Theorem 2 is now checked without any extra analytic premise: `GaussianSmoothedFreeTransportBound` is proved from A1. Actual Gaussian posterior/conditional mean/covariance identification, local variational flow construction, and density transport from the continuity PDE are checked. The actual Gaussian-mixture continuity/momentum equations, covariance stress bounds, polynomial joint derivative bounds, and signed finite-time cost expansion are now checked. Their final smooth-case assembly is now complete.
 - The actual truncation-plus-Gaussian approximation has weak, second-moment, transport-cost, endpoint corrector, conditional-entropy and integrated-entropy convergence. The general-law free-transport inequality is reduced to the explicit smooth bounded-latent inequality; that premise is now proved in `FreeTransportTheorem.lean`.
 - Section 6 actual comparison remainder and cold-start entropy bounds, scalar entropy constant 0.0218 and TV closure 0.105 from that entropy bound. The missing actual entropy input is not assumed verified.
-- Finite-entropy and finite-moment propagation through every unadjusted and comparison step; exact conditional-entropy kick identities and the curvature bound of Lemma 4.9(ii).
+- Finite-entropy and finite-moment propagation through every unadjusted and comparison step; exact conditional-entropy kick identities and the curvature bound of Lemma 4.8(ii).
 - Finite moments of every unadjusted finite trajectory; the exact scalar entropy recurrence and Theorem 2 parameter constants (conditional scalar components, not the full theorem); existence of finite-cost quadratic optimal plans, Rockafellar potentials, and a.e. differentiability on convex domains.
 - Proposition 2.4's gradient-cost lower bound for the actual cached implementation under arbitrary deterministic refresh schedules; L2-warm transfer of path events; finite Gaussian normalized sums; and a maximal coupling measure construction.
 

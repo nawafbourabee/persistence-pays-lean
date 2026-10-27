@@ -1,6 +1,6 @@
-# Independent statement audit of main_9.pdf
+# Independent statement audit of the paper
 
-Audited source: `/Users/nawafbou-rabee/Downloads/main_9.pdf`.
+Audited source: arXiv:2610.35781v1 (audit performed on the manuscript of 2026-10-25; statement numbers follow the arXiv version).
 Scope: Theorem 2, its literal-rate/maximum wrappers, normalized Proposition 6.1,
 and the Definition 2.2 sampler/normalization/cost interfaces. This audit checks
 statement fidelity; kernel verification and axiom reports are separate evidence.

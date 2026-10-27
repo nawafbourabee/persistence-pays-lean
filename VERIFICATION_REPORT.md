@@ -1,6 +1,6 @@
 # Lean verification of the main results of Persistence Pays
 
-**Completed for main_9.pdf on 26 October 2026.** Theorem 1, Theorem 2,
+**Completed on 26 October 2026 for the manuscript of 2026-10-25, posted as arXiv:2610.35781v1.** Theorem 1, Theorem 2,
 Proposition 2.4, and Proposition 3.1 have checked Lean proofs under the
 manuscript's assumptions. The actual probability laws, numerical kernels,
 and gradient counter are defined in the project. No essential analytic
@@ -111,7 +111,7 @@ The complete intended statement specification is
 
 ## Source and reproducibility
 
-Source: `/Users/nawafbou-rabee/Downloads/main_9.pdf`.
+Source: arXiv:2610.35781v1.
 
 PDF SHA256:
 `1c1ae6894e3a61484093b19ee7818d50b1ec26b72a041f1e6ae88bad3dee0053`.

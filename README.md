@@ -20,13 +20,11 @@ Three gaps are stated in Section 8 of the paper. The dimension dependence: the u
 
 ## This repository
 
-**Numbering.** The reports in this repository (THEOREM_MAP.md, STATEMENT_AUDIT.md, VERIFICATION_REPORT.md) refer to the manuscript version `main_9.pdf`, the version the formalization was built from. The arXiv version renumbers some lemmas in Sections 4 and 5 (in particular, Lemma 4.5 of `main_9` was merged into the proof of what is now Lemma 4.7 and Appendix A). The four headline statements, Theorem 1, Theorem 2, Proposition 2.4 and Proposition 3.1, are unchanged.
-
 **License.** Apache License 2.0 (see LICENSE), the license of Mathlib.
 
 ---
 
-Theorem 1, Theorem 2, Proposition 2.4, and Proposition 3.1 of `main_9.pdf` are Lean-verified under the manuscript's assumptions, including the actual sampler laws and all gradient costs.
+Theorem 1, Theorem 2, Proposition 2.4, and Proposition 3.1 of arXiv:2610.35781 are Lean-verified under the manuscript's assumptions, including the actual sampler laws and all gradient costs.
 
 **Start with [VERIFICATION_REPORT.md](VERIFICATION_REPORT.md).** It lists the certificates, exact scope, proof parameters, source hash, and reproducibility information.
 
@@ -54,6 +52,6 @@ The [Lake configuration](lakefile.toml) and [toolchain file](lean-toolchain) pin
 - [MAIN_PARAMETER_AUDIT.md](MAIN_PARAMETER_AUDIT.md): parameter construction, normalization, and exact complexity audit.
 - [PROGRESS_HISTORY.md](PROGRESS_HISTORY.md): preserved intermediate progress, including dependencies that were unresolved at earlier stages.
 
-Source: manuscript version `main_9.pdf`.
-PDF SHA256: `1c1ae6894e3a61484093b19ee7818d50b1ec26b72a041f1e6ae88bad3dee0053`.
+Source: arXiv:2610.35781v1. The formalization was built from the manuscript of 2026-10-25; the reports use the arXiv numbering.
+SHA256 of the 2026-10-25 manuscript PDF: `1c1ae6894e3a61484093b19ee7818d50b1ec26b72a041f1e6ae88bad3dee0053`.
 The manuscript and the reused external formalization were not modified.
